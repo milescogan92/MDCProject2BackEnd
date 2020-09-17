@@ -22,4 +22,4 @@ const gearSchema = new mongoose.Schema({
   timestamps: true
 })
 
-module.exports = mongoose.model('Gear', exampleSchema)
+module.exports = mongoose.model('Gear', gearSchema)
